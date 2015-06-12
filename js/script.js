@@ -20,3 +20,6 @@ var height = [7, 12, 5, 21, 9]// Different height
 var area0 = width [0] * height [0]//Finding first area
 console.log(area0) //First area
 
+var area1 = width [1] * height [1] //Finding second
+console.log(area1) //Second area
+
