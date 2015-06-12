@@ -16,3 +16,7 @@ console.log(area); //Area of the rectangle.
 var width = [15, 8, 23, 11, 6] //Different width
 var height = [7, 12, 5, 21, 9]// Different height
 
+
+var area0 = width [0] * height [0]//Finding first area
+console.log(area0) //First area
+
