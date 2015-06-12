@@ -35,8 +35,6 @@
 //Project
 
 /* I calculated a base of 10 and a vertical height of 5 and had a area of 25 Sq Ft */
-console.log(bases);
-console.log(vHeight)
 var welcome = prompt("We are going to calculate the area of a triangle \nPlease enter your first name")//Welcome message and prompt for First name
 console.log(welcome); //First Name
 var lastName = prompt("Last name"); //Prompt for last name
@@ -44,4 +42,4 @@ console.log(lastName); //Last name
 var base = prompt("Calculating the area of a Triangle\nWhat is the base?"); //Enter base of triangle
 var vHeight = prompt("What is the vertical height?"); //Enter vertical height of triangle
 var area = 1/2 * base * vHeight; //Formula of triangle area A = 1/2 * B * H
-console.log(area + " Sq Ft "); //result in square feet
+console.log(" The area of the triangle is " +  area +  " Sq Ft "); //result in square feet
