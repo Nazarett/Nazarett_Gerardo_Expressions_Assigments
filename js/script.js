@@ -3,13 +3,16 @@
 // and the height is double of its true value which is 84 sq ft
 
 //A = W * H This is the formula to calculate the area.
-//
 
 var width = 17.5 * 2; //Multiply by 2 since we only have half of the width
-console.log(width); //Width
+console.log(width + " Sq Ft "); //Width
 
 var height = 84 / 2; //Divide by 2 since we got double of the actual height
-console.log(height); //Height
+console.log(height + " Sq Ft "); //Height
 
-var area = width * height; //This will give us the area.
-console.log(area)
+var area = width * height + " Sq Ft "; //This will give us the area.
+console.log(area); //Area of the rectangle.
+
+var width = [15, 8, 23, 11, 6] //Different width
+var height = [7, 12, 5, 21, 9]// Different height
+
