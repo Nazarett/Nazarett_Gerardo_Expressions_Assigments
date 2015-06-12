@@ -1,17 +1,23 @@
+//Examples
 //What is the area of a rectangle given
 // that half of the width is 17.5 sq ft
 // and the height is double of its true value which is 84 sq ft
-
 //A = W * H This is the formula to calculate the area.
+
+//Example of Multiplication
 
 var width = 17.5 * 2; //Multiply by 2 since we only have half of the width
 console.log(" Width " + width + " Sq Ft "); //Width
+
+//Example of division
 
 var height = 84 / 2; //Divide by 2 since we got double of the actual height
 console.log(" Height " + height + " Sq Ft "); //Height
 
 var area = width * height + " Sq Ft "; //This will give us the area.
 console.log(" Area " + area); //Area of the rectangle.
+
+//Arrays part of the calculation
 
 var width = [15, 8, 23, 11, 6]; //Different width
 var height = [7, 12, 5, 21, 9];// Different height
@@ -35,11 +41,15 @@ console.log(" Area4 " + area4 + " Sq Ft "); // Fifth area
 //Project
 
 /* I calculated a base of 10 and a vertical height of 5 and had a area of 25 Sq Ft */
-var welcome = prompt("We are going to calculate the area of a triangle \nPlease enter your first name")//Welcome message and prompt for First name
-console.log(welcome); //First Name
-var lastName = prompt("Last name"); //Prompt for last name
-console.log(lastName); //Last name
 var base = prompt("Calculating the area of a Triangle\nWhat is the base?"); //Enter base of triangle
 var vHeight = prompt("What is the vertical height?"); //Enter vertical height of triangle
 var area = 1/2 * base * vHeight; //Formula of triangle area A = 1/2 * B * H
 console.log(" The area of the triangle is " +  area +  " Sq Ft "); //result in square feet
+var base2 = prompt ("Calculating a second area to add them up and subtract them\nBase")
+var vHeight2 = prompt("Vertical height");
+var area2 = 1/2 * base2 * vHeight2;
+console.log(" The second area is" + area2 + "Sq Ft");
+var addAreas = area + area2
+console.log(" Both areas added up " + addAreas + " Sq Ft ")
+var subAreas = area - area2
+console.log(" Both areas subtracted is " + subAreas + " Sq Ft ")
