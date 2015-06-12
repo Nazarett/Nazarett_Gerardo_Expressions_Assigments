@@ -11,3 +11,5 @@ console.log(width); //Width
 var height = 84 / 2; //Divide by 2 since we got double of the actual height
 console.log(height); //Height
 
+var area = width * height; //This will give us the area.
+console.log(area)
