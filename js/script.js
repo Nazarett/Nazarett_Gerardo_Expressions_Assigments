@@ -26,3 +26,6 @@ console.log(area1) //Second area
 var area2 = width [2] * height [2] //Finding third area
 console.log(area2) //Third area
 
+var area3 = width [3] * height [3] //Finding fourth area
+console.log(area3) //Fourth area
+
