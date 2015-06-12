@@ -18,16 +18,16 @@ var height = [7, 12, 5, 21, 9]// Different height
 
 
 var area0 = width [0] * height [0]//Finding first area
-console.log(area0) //First area
+console.log(area0 + " Sq Ft ") //First area
 
 var area1 = width [1] * height [1] //Finding second
-console.log(area1) //Second area
+console.log(area1 + " Sq Ft ") //Second area
 
 var area2 = width [2] * height [2] //Finding third area
-console.log(area2) //Third area
+console.log(area2 + " Sq Ft ") //Third area
 
 var area3 = width [3] * height [3] //Finding fourth area
-console.log(area3) //Fourth area
+console.log(area3 + " Sq Ft ") //Fourth area
 
 var area4 = width [4] * height [4] // Finding fifth area
-console.log(area4) // Fifth area
+console.log(area4 + " Sq Ft ") // Fifth area
