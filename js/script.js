@@ -5,7 +5,9 @@
 //A = W * H This is the formula to calculate the area.
 //
 
-var width = 17.5 * 2 //This will give us the actual width.
-console.log(width)//Width
+var width = 17.5 * 2; //Multiply by 2 since we only have half of the width
+console.log(width); //Width
 
+var height = 84 / 2; //Divide by 2 since we got double of the actual height
+console.log(height); //Height
 
