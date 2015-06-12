@@ -33,8 +33,10 @@
 //console.log(" Area4 " + area4 + " Sq Ft "); // Fifth area
 
 //Project
-var welcome = prompt("We are going to calculate the area of a triangle \nPlease enter your name to start.")
+var welcome = prompt("We are going to calculate the area of a triangle \nPlease enter your name")
 console.log(welcome)
+var lastName = prompt("Last name")
+console.log(lastName)
 var base = prompt("Calculating the area of a Triangle\nWhat is the base?");
 var vheight = prompt("What is the vertical height?");
 var area = 1/2 * base * vheight
