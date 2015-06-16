@@ -48,7 +48,7 @@ console.log(" The area of the triangle is " +  area +  " Sq Ft "); //result in s
 var base2 = prompt ("Calculating a second area to add them up and subtract them\nBase")
 var vHeight2 = prompt("Vertical height");
 var area2 = 1/2 * base2 * vHeight2;
-console.log(" The second area is" + area2 + "Sq Ft");
+console.log(" The second area is " + area2 + "Sq Ft");
 var addAreas = area + area2
 console.log(" Both areas added up " + addAreas + " Sq Ft ")
 var subAreas = area - area2
